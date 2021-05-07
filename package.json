@@ -1,0 +1,22 @@
+{
+  "name": "Stream",
+  "version": "1.0.0",
+  "description": "Projet Stream",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "run": "npm run dev"
+  },
+  "author": " ",
+  "license": " ",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "socket.io": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
